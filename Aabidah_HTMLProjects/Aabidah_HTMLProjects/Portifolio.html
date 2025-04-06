@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <tittle>My Portifolio</tittle>
+        </head>
+        <body>
+            <header>
+
+                <!--Main heading of the page-->
+                <h1>Welcome to My Portifolio</h1>
+
+                <!--Navigation links-->
+                <nav>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#hobbies">Hobbies</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!--section about me containig my profile picture-->
+            </header>
+            <section id="about">
+                <h2>About Me</h2>
+                <img src="./shy.jpg" alt="My Profile Picture" width="200" height="200">
+                <P>Hi, I am Aabidat a passionate web developer. I love building websites and learning new technologies</P>
+
+                <!--My skills section-->
+            </section>
+            <section id="skills">
+                <h2>My Skills</h2>
+                <table border="1">
+                    <tr>
+                        <th>Skills</th>
+                        <th>Proficiency</th>
+                    </tr>
+                    <tr>
+                        <td>HTML & CSS</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Javascript</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>UI/UX Design</td>
+                        <td>Beginner</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!--project section-->
+            <section id="Projects">
+                <h2>My Projects</h2>
+
+                <article>
+                    <h3>Project 1: climachange</h3>
+                    <img src="./pll.jpeg" alt =" climachange image" width="200" height="200">
+                    <p> This is a website which aims at curbing plastic pollution and stopping climate change by recycling of plastic waste. </p>
+                </article>
+                <article>
+                    <h3>Project 2: PurePotential</h3>
+                    <img src="./wcr.jpeg" alt="purepotential image" wdth="200" height="200">
+                    <p> This is a website that helps individuals with water crises by providng for a clean souce of water</p>
+                </article>
+            </section>
+
+            <!--list of my hobbies-->
+            <section id="hobbies">
+                <h2>My Hobbies</h2>
+                <ol>
+                    <li>Reading Tech Blogs</li>
+                    <li>Building Web Apps</li>
+                    <li>Exploring UI/UX Design Trends</li>
+                </ol>
+            </section>
+
+            <!--form section of how to contact me-->
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" required></textarea><br>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </body>
+</html>

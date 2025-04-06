@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7xj1z5l5c5e5e5e5e5e5e5e5e5e5e5e5" crossorigin="anonymous">    <title>MY Portifolio</title>
+    <link rel="stylesheet" href="new portifolio.css">
+        <title>My Portifolio</title>
+</head>
+<body>
+    <header>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span>Aabidah</span>   
+            </div> 
+            <div class="links">
+                <div class="link"><a href="#"></a>About</div>
+                <div class="link"><a href="#"></a>Skills</div>
+                <div class="link"><a href="#"></a>Projects</div>
+                <div class="link contact-btn"><a href="#"></a>Contact me</div>
+            </div>
+            <img src="more.png" alt="" class="humburg">
+        </div>
+                <div class="dropdown">
+                    <div class="links">
+                        <a href="">About</a>
+                        <a href="">Skills</a>
+                        <a href="">Projects</a>
+                        <a href="">Contact me</a>
+                        <img src="close.png" alt="" class="cancel">                
+                    </div>
+                </div>
+             <section class="About">
+                    <div class="main-container">
+                        <div class="image">
+                            <img src="ms.jpg" alt="My profile picture"  class="profile">
+                    </div>
+                    <div class="content">
+                        <h1>Hey i'm <span>Aabidah</span></h1>
+                        <div class="typewriter">I'm a <span></span> </div>
+                        <p>As a web developer, I craft engaging and functional digital experiences. I specialize in building responsive and user-friendly websites and web applications, leveraging technologies like HTML, CSS, JavaScript, and various frameworks. I'm passionate about clean code, problem-solving, and staying up-to-date with the latest web development trends.
+                        <div class="social-links">
+                            <a href="#"><img src="facebook-icon.png" alt="" width="20px" height="20px"></a>
+                            <a href="#"><img src="linkedin-icon.png" alt="" width="20px" height="20px"></a>
+                            <a href="#"><img src="twitter-icon.png" alt="" width="20px" height="20px"></a>
+                        </div>
+                        <div class="btn">
+                            <button>Hire me</button>
+                        </div>
+
+                    </div>
+            </section>
+    </nav>
+    </header>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="sc">HTML & CSS</div>
+            <div class="sc">JavaScript</div>
+            <div class="sc">Responsive Design</div>
+            <div class="sc">Problem-Solving</div> 
+        </div>
+    </section>
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="grid-container">
+            <div class="pc">      
+                <h3>Project 1: climachange</h3>
+                <p> This is a website which aims at curbing plastic pollution and stopping climate change by recycling of plastic waste. </p>
+            </div>
+            <div class="pc">
+                <h3>Project 2: PurePotential</h3>
+                <p> This is a website that helps individuals with water crises by providng for a clean souce of water</p>
+            </div>    
+        </div>
+    </section> 
+    <section>
+        <div class="container">
+            <h2>Contact Me</h2>
+    
+            <form id="contact-form">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+    
+            <div id="success-message" class="message" style="display: none;">
+                Your message has been sent successfully!
+            </div>
+        </div>
+    </section>
+    </body>
+</html>
+        
